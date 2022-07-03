@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Quiz Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- Home Page -->
+
+    <div class="container">
+        <header>
+            <h1>Coding Quiz Challenge</h1>
+        </header>
+        <div class="homepage">
+            <h2>This quiz will test your knowledge</h2>
+            <h2>of various coding web design concepts</h2>
+            <button id="startbtn">Start Quiz</button>
+            <button id="homePageHighSchore" onclick="showHighscore()">High Scores</button>
+        </div>
+
+        <!-- Quiz Questions & Timer -->
+
+        <div id="quiz">
+            <div id="timer">Time Remaining</div>
+            <div id="questions">
+                <p>Questions Placeholder</p>
+            </div>
+            <button id="a" onclick="checkAnswer('a')">A</button>
+            <button id="b" onclick="checkAnswer('b')">B</button>
+            <button id="c" onclick="checkAnswer('c')">C</button>
+            <button id="d" onclick="checkAnswer('d')">D</button>
+            <div id="result"></div>
+        </div>
+
+        <!-- Results & High Score Submit-->
+
+        <div id="gameover">
+            <div id="finalScore"></div>
+            <input type="text" size="40" placeholder="Enter initials to record score" name="initials" id="initials" />
+            <button id="submitScore">Submit Score</button>
+        </div>
+
+        <!-- High Score Page-->
+
+        <div id="highScorecontainer">
+            <div id="highScorePage">
+                <div id="highScoreHeader">
+                    <h3>User Initials</h3>
+                    <h3>High Score</h3>
+                </div>
+                <div id="highScoreInitials"></div>
+                <div id="highScoreNumber"></div>
+                <div id="endGameBtn">
+                    <button id="playAgain" onclick="playAgain()">Play Again</button>
+                    <button id="clearHighScore" onclick="clearHighScore()">Clear High Score</button>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
