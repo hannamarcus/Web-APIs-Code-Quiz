@@ -1,0 +1,111 @@
+:root{
+    background-color: white;
+}
+
+.container{
+
+}
+
+.homepage{
+
+}
+
+h2{
+
+}
+
+button{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(161, 95, 223);
+    border-radius: 10px;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 200px;
+    margin: top 5px;
+
+}
+
+button.hover{
+    box-shadow: 4px 3px 6px darkgrey;
+}
+
+button:focus{
+    background-color: #a580d6;
+}
+
+#quiz{
+
+}
+
+#timer{
+
+}
+
+#questions{
+
+}
+
+#result{
+
+}
+
+  
+#gameover{
+
+}
+
+#finalscore{
+
+}
+
+#highScoreContainer{
+
+}
+
+#highScorePage{
+
+}
+
+#gameover{
+
+}
+
+#finalScore{
+
+}
+
+#initials{
+
+}
+
+#submitScore{
+
+}
+
+#highScoreContainer{
+
+}
+
+#highScorepage{
+
+}
+
+#highScoreHeader{
+
+}
+
+#highScoreinitials{
+
+}
+
+#highScoreNumber{
+
+}
+
+#endGameBtn{
+    display: none;
+}
+
