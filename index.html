@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,11 +7,8 @@
     <title>Code Quiz Challenge</title>
     <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
     <!-- Home Page -->
-
     <div class="container">
         <header>
             <h1>Coding Quiz Challenge</h1>
@@ -20,14 +16,12 @@
         <div class="homepage">
             <h2>This quiz will test your knowledge</h2>
             <h2>of various coding web design concepts</h2>
-            <button id="startbtn">Start Quiz</button>
+            <button id="startBtn">Start Quiz</button>
             <br>
             <button id="homePageHighScore" onclick="showHighscores()">High Scores</button>
         </div>
-
         <!-- Quiz Questions & Timer -->
-
-        <div id="quiz">
+        <div id="quiz" class="hide">
             <div id="timer">Time Remaining</div>
             <div id="questions">
                 <p>Questions Placeholder</p>
@@ -38,17 +32,13 @@
             <button id="d" onclick="checkAnswer('d')">D</button>
             <div id="result"></div>
         </div>
-
         <!-- Results & High Score Submit-->
-
         <div id="gameover">
             <div id="finalScore"></div>
             <input type="text" size="40" placeholder="Enter initials to record score" name="initials" id="initials" />
             <button id="submitScore">Submit Score</button>
         </div>
-
         <!-- High Score Page-->
-
         <div id="highScoreContainer">
             <div id="highScorePage">
                 <div id="highScoreHeader">
@@ -63,8 +53,6 @@
                 </div>
             </div>
         </div>
-
         <script src="script.js"></script>
 </body>
-
 </html>
