@@ -13,12 +13,12 @@
         <header>
             <h1>Coding Quiz Challenge</h1>
         </header>
-        <div class="homepage">
+        <div id="homepage">
             <h2>This quiz will test your knowledge</h2>
             <h2>of various coding web design concepts</h2>
             <button id="startBtn">Start Quiz</button>
             <br>
-            <button id="homePageHighScore" onclick="showHighscores()">High Scores</button>
+            <button id="homePageHighScore" onclick="renderScores()">High Scores</button>
         </div>
         <!-- Quiz Questions & Timer -->
         <div id="quiz" class="hide">
@@ -33,10 +33,10 @@
             <div id="result"></div>
         </div>
         <!-- Results & High Score Submit-->
-        <div id="gameover">
+        <div id="gameOver">
             <div id="finalScore"></div>
             <input type="text" size="40" placeholder="Enter initials to record score" name="initials" id="initials" />
-            <button id="submitScore">Submit Score</button>
+            <button id="submitScore"onclick="submitScore()">Submit Score</button>
         </div>
         <!-- High Score Page-->
         <div id="highScoreContainer">
@@ -45,6 +45,9 @@
                     <h3>User Initials</h3>
                     <h3>High Score</h3>
                 </div>
+                <ul id="scoreList">
+
+                </ul>
                 <div id="highScoreInitials"></div>
                 <div id="highScoreNumber"></div>
                 <div id="endGameBtn">

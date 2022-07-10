@@ -46,8 +46,7 @@ button{
     column-gap: 10px;
     cursor: pointer;
 }
-button.hover{
-}
+
 button:focus{
     background-color: lightblue;
 }
@@ -81,7 +80,7 @@ p{
 #result{
     display: none;
 }
-#gameover{
+#gameOver{
     text-align: center;
     display: none;
     flex-direction: column;
@@ -97,8 +96,7 @@ p{
     margin: .5rem;
     height: 1.75rem;
 }
-#submitScore{
-}
+
 #highScoreContainer{
     height: 100%;
     width: 100%;
