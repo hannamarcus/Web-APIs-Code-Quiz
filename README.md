@@ -19,16 +19,16 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score
 
-Screenshot of deployed application
-![Screen Shot 2022-07-12 at 9 05 06 PM](https://user-images.githubusercontent.com/106893601/178648697-eda0fbcf-dacf-4e21-8237-605fc176e5d6.png)
+Screenshot of deployed application:
+<img width="668" alt="Screen Shot 2022-07-12 at 11 14 10 PM" src="https://user-images.githubusercontent.com/106893601/178664700-c2887617-af19-4bc9-89d2-122e15ab414e.png">
 
-![Screen Shot 2022-07-12 at 9 05 21 PM](https://user-images.githubusercontent.com/106893601/178648732-2a301cb9-7ccb-48aa-a62a-12cd9773240a.png)
+<img width="641" alt="Screen Shot 2022-07-12 at 11 14 29 PM" src="https://user-images.githubusercontent.com/106893601/178664713-5dc91066-b617-42d2-bf7c-65540e3d4a87.png">
 
-![Screen Shot 2022-07-12 at 9 05 42 PM](https://user-images.githubusercontent.com/106893601/178648755-0ecb4e1a-507e-47fd-97a4-b795c22d8127.png)
+<img width="546" alt="Screen Shot 2022-07-12 at 11 15 11 PM" src="https://user-images.githubusercontent.com/106893601/178664755-d139e6c4-7008-47dd-a6d7-de53fed6af65.png">
 
-![Screen Shot 2022-07-12 at 9 05 50 PM](https://user-images.githubusercontent.com/106893601/178648773-fb2ba0a1-3f8d-4363-80c3-6cc52835a60b.png)
+<img width="581" alt="Screen Shot 2022-07-12 at 11 14 55 PM" src="https://user-images.githubusercontent.com/106893601/178664772-9be44013-072e-43e8-971e-d4727ea9ea5d.png">
 
-URL to deployed application
+URL to deployed application:
 https://hannamarcus.github.io/Web-APIs-Code-Quiz/
 
 
