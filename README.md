@@ -20,6 +20,7 @@ WHEN the game is over
 THEN I can save my initials and score
 
 Screenshot of deployed application:
+
 <img width="668" alt="Screen Shot 2022-07-12 at 11 14 10 PM" src="https://user-images.githubusercontent.com/106893601/178664700-c2887617-af19-4bc9-89d2-122e15ab414e.png">
 
 <img width="641" alt="Screen Shot 2022-07-12 at 11 14 29 PM" src="https://user-images.githubusercontent.com/106893601/178664713-5dc91066-b617-42d2-bf7c-65540e3d4a87.png">
