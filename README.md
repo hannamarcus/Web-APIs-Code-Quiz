@@ -1,5 +1,5 @@
 Task:
-This week’s Challenge was to build a timed coding quiz with multiple-choice questions. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code that you write.
+This week’s Challenge was to build a timed coding quiz with multiple-choice questions. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code.
 
 User Story:
 AS A coding boot camp student
