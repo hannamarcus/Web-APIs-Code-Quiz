@@ -72,7 +72,7 @@ var quizQuestions = [{
     correctAnswer: "c"},
     {
     question: "Which is NOT a favortie hobby?",
-    choiceA: "hScuba Divingref",
+    choiceA: "Scuba Diving",
     choiceB: "Mountain Biking",
     choiceC: "Running",
     choiceD: "Surfing",
