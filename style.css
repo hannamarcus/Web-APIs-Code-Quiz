@@ -16,17 +16,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 h1{
     font-family: sans-serif;
     margin-top: -15px;
     font-size: 50px;
+    display: flex;
+    align-items: center;
 }
 h2{
     font-family: sans-serif;
     margin-top: -5px;
     margin-bottom: 20px;
     justify-content: center;
+    display: flex;
+    align-items: center;
 }
 #startBtn{
     flex-direction: row;
@@ -45,6 +50,10 @@ button{
     margin: top 10px;
     column-gap: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 button:focus{
