@@ -1,12 +1,12 @@
-Task
+Task:
 This week’s Challenge was to build a timed coding quiz with multiple-choice questions. This app runs in the browser, and features dynamically updated HTML and CSS powered by JavaScript code that you write.
 
-User Story
+User Story:
 AS A coding boot camp student
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 
-Acceptance Criteria
+Acceptance Criteria:
 GIVEN I am taking a code quiz
 WHEN I click the start button
 THEN a timer starts and I am presented with a question
